@@ -8,7 +8,7 @@ let isValid = false;
 const input_year = document.querySelector("#year");
 const input_month = document.querySelector("#month");
 const input_day = document.querySelector("#day");
-//const submit_btn = document.querySelector(".submit-btn");
+
 // we select the error elements
 const error_day = document.querySelector(".error-day");
 const error_month = document.querySelector(".error-month");
