@@ -74,7 +74,7 @@ input_year.addEventListener("input", (e) => {
 
 function calculateDate() {
     if (isValid) {
-        let birthday = '${input_year.value}/${input_month.value}/${input_day.value}';
+        let birthday = `${input_year.value}/${input_month.value}/${input_day.value}`;
         console.log(birthday);
         let birthdayObj =  new Date(birthday); 
         let ageDiffMill = Date.now() - birthdayObj;
